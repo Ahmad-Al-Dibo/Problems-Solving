@@ -56,8 +56,8 @@ dat grote getallen aankan (bijvoorbeeld `int64` of `long` in andere talen).
 
 Python kan dit automatisch aan, omdat integers geen vaste limiet hebben.
 ```py
+assert 1 <= len(ar) <= 10
 for i in ar:
-  assert 1<= len(ar) <= 10
   assert 0 <= i <= 10**10
 
 ```
